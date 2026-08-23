@@ -1,0 +1,36 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Real company data
+data/private/
+output/private/
+
+# Any raw input folders
+data/raw/
+input/
+private/
+
+# Excel temporary files
+~$*.xlsx
+~$*.xlsm
+~$*.xls
+
+# Operating system files
+.DS_Store
+Thumbs.db
+``
