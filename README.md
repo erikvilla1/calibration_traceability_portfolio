@@ -15,6 +15,7 @@ with different structures:
 1. A calibration-event history containing repeating item sections
 2. An item-to-master assignment report
 3. An inventory report containing descriptions, departments, and tool settings
+4. Audit traceability to easily identify which tools were calibrated with which master, cleaner format.
 
 This project normalizes those reports since I cannot publicly publish the company's items due to legal reasons, connects them by item number,
 validates the relationships and creates a filtered traceability report.
